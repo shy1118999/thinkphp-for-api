@@ -301,7 +301,6 @@ class BaseModel extends Model
         }
         /***
          * [自定义验证规则：判断输入是否为11位手机号]
-         * [应该暂时用不着]
          */
         protected function isMobile($value,$rule='',$date='',$field=''){
             $rule = '^1(3|4|5|7|8)[0-9]\d{8}$^';
